@@ -17,7 +17,6 @@ if os.path.isfile('env.py'):
     import env
 
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-lewismdillo-bushyparkte-bjtezoorjb2.ws-eu101.gitpod.io',
+    '8000-lewismdillo-bushyparkte-bjtezoorjb2.ws-eu102.gitpod.io' ,
 ]
 
 
