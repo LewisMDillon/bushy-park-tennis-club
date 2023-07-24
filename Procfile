@@ -1,1 +1,1 @@
-web: gunicorn bushy-park-tennis-club.wsgi
+web: gunicorn django_project.wsgi
